@@ -70,6 +70,8 @@ const cards = [
   },
 ];
 
+
+
 const App = () => {
   return (
     <>
@@ -188,16 +190,19 @@ const App = () => {
           </div>
 
           <div className="card-container">
-            {cards.map((card, index) => (
-              <div key={index} className="card">
-                <img src={card.imgSrc} alt={card.title} />
-                <div className="card-info">
-                  <h3>{card.title}</h3>
-                  <p>{card.author}</p>
-                </div>
-              </div>
-            ))}
-          </div> 
+  {cards
+    .filter((card, index) => index % 2 === 0) 
+    .map((card, index) => (
+      <div key={index} className="card">
+        <img src={card.imgSrc} alt={card.title} />
+        <div className="card-info">
+          <h3>{card.title}</h3>
+          <p>{card.author}</p>
+        </div>
+      </div>
+    ))}
+</div>
+
            <div>
             <img
               style={{

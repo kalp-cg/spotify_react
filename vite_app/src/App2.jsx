@@ -28,6 +28,8 @@ const playlists = [
         "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image1.png?raw=true",
     },
   ];
+
+  
   
 
 const App2 = () => {
