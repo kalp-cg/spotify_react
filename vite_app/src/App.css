@@ -1,0 +1,265 @@
+body{
+  background-color: black;
+}
+
+.dada{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.logo >img{
+  height: 60px;
+  width: 210px;
+  margin-bottom: 2vh;
+  margin-left: 2vh;
+}
+
+.forhome >img{
+  height: 30px;
+  width: 30px;
+}
+
+.forhome >span{
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.forsearch>img{
+  height: 30px;
+  width: 30px;
+}
+.forsearch>span{
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.forlib > img{
+  height: 30px;
+  width: 30px;
+}
+
+.forlib>span{
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.home{
+  
+  padding: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.forplay>img{
+  height: 30px;
+  width: 30px;
+}
+
+.forplay > span{
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.forsong>img{
+  height: 30px;
+  width: 30px;
+}
+
+.forsong>span{
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.forep > img{
+  height: 30px;
+  width: 30px;
+}
+
+.forep > span{
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.forplaysong{
+  
+  padding: 20px;
+  margin-bottom: 50px;
+  
+}
+
+.forh3>h3{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 2vh;
+}
+
+.forinstall>img{
+  height: 30px;
+  width: 30px;
+}
+
+.forinstall > span{
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.forinstall{
+  margin-left: 2vh;
+}
+
+.slidebar{
+  background-color: rgb(0, 0, 0);
+  margin-top: vh;
+}
+
+.papa2{
+  margin-left: 5vh;
+  background-color: rgb(32, 32, 32);
+  margin-top: vh;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0); */
+  /* background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+  transform: skewX(-45deg);
+  animation: shine 2s infinite; */
+}
+
+.fornext>img{
+  height: 50px;
+  width: 120px;
+  
+}
+
+.forround{
+  /* border: 1px solid black; */
+  /* border-radius: 37px; */
+  /* background-color: black; */
+  margin-left: 145vh;
+  margin-top: -6vh;
+  width: 160px;
+}
+
+
+
+.forh2tag>h2{
+  font-size: 38px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  margin: 0;
+  color: #ffffff;
+}
+
+.playlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.playlist-card {
+  background-color: #282828;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.playlist-card:hover {
+  transform: scale(1.05);
+}
+
+.playlist-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #444;
+}
+
+.playlist-title {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.forh2tag>h2{
+  font-size: 38px;
+}
+
+.foralign{
+  display: flex;
+}
+
+.forh3>h3{
+  color: white;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+  /* margin-left: 2vh; */
+ 
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow-x: auto;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 10px;
+}
+
+.card-info h3 {
+  font-size: 16px;
+  margin: 0 0 5px;
+}
+
+.card-info p {
+  font-size: 14px;
+  margin: 0;
+  color: #ccc;
+}
+
+.forflex{
+  display: flex;
+}
